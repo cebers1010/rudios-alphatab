@@ -226,7 +226,7 @@ export default {
             file: this.scoreFile,
             logLevel: 'debug',
             useWorkers: false,
-            workerFile: `${this.workerDirectory}alphaTab.worker.js`,
+            // workerFile: `${this.workerDirectory}alphaTab.worker.js`,
             tracks: [9] // Specify all 9 tracks as an array of indexes
           },
           player: {

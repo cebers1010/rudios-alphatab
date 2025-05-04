@@ -25,10 +25,10 @@ export default defineNuxtConfig({
   app: {
     head: {
       script: [
-        {
-          src: '/alphatab-assets/worker/alphaTab.worker.js',
-          type: 'text/javascript'
-        }
+        // {
+        //   src: '/alphatab-assets/worker/alphaTab.worker.js',
+        //   type: 'text/javascript'
+        // }
       ]
     }
   },
