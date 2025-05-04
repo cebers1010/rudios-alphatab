@@ -227,7 +227,8 @@ export default {
             logLevel: 'debug',
             useWorkers: false,
             // workerFile: `${this.workerDirectory}alphaTab.worker.js`,
-            tracks: [9] // Specify all 9 tracks as an array of indexes
+            tracks: [9], // Specify all 9 tracks as an array of indexes
+            fontDirectory: this.fontDirectory // Add font directory configuration to core settings
           },
           player: {
             enablePlayer: true,
