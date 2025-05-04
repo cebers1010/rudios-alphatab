@@ -3,7 +3,7 @@
     <!-- Top Navbar -->
     <v-app-bar color="blue-grey-darken-1" density="compact">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Rudios Music Player</v-toolbar-title>
+      <v-toolbar-title>RudiOS Music Player</v-toolbar-title>
       <v-spacer></v-spacer>
       
       <!-- Playback Controls in Navbar -->
